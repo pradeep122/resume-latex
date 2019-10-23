@@ -1,0 +1,159 @@
+%-------------------------
+% Resume in Latex
+% Author : Pradeep Dantuluri
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://pradeep122.github.io}{\Large Pradeep Dantuluri}}  & Mobile : +91 897-817-3535 \\
+  Email : \href{mailto:pradeep122@gmail.com}{pradeep122@gmail.com} & Skype : pradeep011 \\
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Yantranet}{Hyderabad, India}
+      {Co-Founder, Head of Engineering \& Product}{April 2012 - Present}
+      \resumeItemListStart
+        \resumeItem{YantraPlatform} 
+          {A bespoke IoT platform designed for media intensive applications like Digital Signage and Kiosks.}
+        \resumeItem{YantraSign}
+          {A Digital Signage solution built on top of the YantraPlatorm }
+        \resumeItem{ScreenVive} 
+          {Content as a Service for your Digital Screens.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DERI, NUI Galway}{Galway, Ireland}
+      {Research Associate}{August 2008 - September 2011}
+      \resumeItemListStart
+        \resumeItem{Digi.me}
+          {An EU funded research project to develop an Intelligent Trust-enhancing Store of a User’s personal information sphere in digital and social environments.}
+        \resumeItem{Nepomuk}
+          {A Social Semantic Desktop built on top of KDE which enables a deeper inter-connection of data from various applications using RDF other Semantic Web Tehcnologies }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Side Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tickscore}{Hyderabad, India}
+      {Technical Co-Founder}{January 2011 -- April 2012}
+      \resumeItemListStart
+        \resumeItem{YantraPlatform} 
+          {A bespoke IoT platform designed for media intensive applications like Digital Signage and Kiosks.}
+        \resumeItem{YantraSign}
+          {A Digital Signage solution built on top of the YantraPlatorm }
+        \resumeItem{ScreenVive} 
+          {Content as a Service for your Digital Screens.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {InMins}{Hyderabad, India}
+      {Technical Co-Founder}{January 2011 -- April 2012}
+      \resumeItemListStart
+        \resumeItem{Digi.me}
+          {An EU funded research project to develop an Intelligent Trust-enhancing Store of a User’s personal information sphere in digital and social environments.}
+        \resumeItem{Nepomuk}
+          {A Social Semantic Desktop built on top of KDE which enables a deeper inter-connection of data from various applications using RDF other Semantic Web Tehcnologies }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Instutute of Information Technology}{Allahabad, India}
+      {Bachelor of Technology in Information Technology;  GPA: 7.98/10.0 }{ 2004 -- 2008}
+  \resumeSubHeadingListEnd
+
+
+
+%--------PROGRAMMING SKILLS------------
+% \section{Programming Skills}
+%  \resumeSubHeadingListStart
+%     \item{
+%      \textbf{Languages}{: Scala, Java, Javascript, Python}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%     }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
