@@ -1,4 +1,4 @@
-A Simple Latex based resume, can be downloaded here - ![Resume PDF](/pradeep_dantuluri_resume.pdf)
+A Simple Latex based resume, can be downloaded here - ![Resume PDF](https://github.com/pradeep122/resume-latex/raw/master/pradeep_dantuluri_resume.pdf)
 
 Credits to [Sourabh Bajaj](https://github.com/sb2nov/resume)
 
