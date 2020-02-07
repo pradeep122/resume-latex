@@ -2,6 +2,7 @@ A Simple Latex based resume, can be downloaded here - ![Resume PDF](https://gith
 
 Credits to [Sourabh Bajaj](https://github.com/sb2nov/resume)
 
+Using [Papeeria](https://www.papeeria.com) for live latex editing
 
 ### License
 Format is MIT but all the data is owned by Pradeep Dantuluri.
